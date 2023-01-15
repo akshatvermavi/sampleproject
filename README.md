@@ -12,6 +12,7 @@
 # Set Proxy
 
 npm config set proxy http://edcguest:edcguest@172.31.102.29:3128
+
 npm config set https-proxy http://edcguest:edcguest@172.31.102.29:3128
 
 # sampleproject
