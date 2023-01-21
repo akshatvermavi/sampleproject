@@ -8,8 +8,12 @@
   git branch -u origin/main main
   
   git remote set-head origin -a
+
+# learn git/ guthub
+
+https://www.w3schools.com/git/default.asp?remote=github
   
-# Set Proxy
+# set Proxy
 
 npm config set proxy http://edcguest:edcguest@172.31.102.29:3128
 
