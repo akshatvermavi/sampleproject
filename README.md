@@ -15,6 +15,18 @@ npm config set proxy http://edcguest:edcguest@172.31.102.29:3128
 
 npm config set https-proxy http://edcguest:edcguest@172.31.102.29:3128
 
+#To push new project in old repo
+
+git remote add origin https://github.com/akshatvermavi/sampleproject
+
+git add .
+
+git commit -m "New Project"
+
+git branch -M dev
+
+git push origin dev
+
 # sampleproject
 
 #Adding an existing project to GitHub using the command line
