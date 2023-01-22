@@ -19,7 +19,13 @@ npm config set proxy http://edcguest:edcguest@172.31.102.29:3128
 
 npm config set https-proxy http://edcguest:edcguest@172.31.102.29:3128
 
-#To push new project in old repo
+# to clone branch from anyn repo
+
+git clone -b new --single-branch https://github.com/MauryaRitesh/Softdart
+
+here new = name of the new branch
+
+# To push new project in old repo
 
 git remote add origin https://github.com/akshatvermavi/sampleproject
 
