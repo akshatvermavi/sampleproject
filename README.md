@@ -79,3 +79,15 @@ Push the changes in your local repository to GitHub.
 
 Pushes the changes in your local repository up to the remote repository you specified as the origin
 
+# To push new file in exixting github repo
+cd foldername
+git status
+git add .
+git status
+git commit -m "message you want to send"
+git status
+git push
+
+
+
+
