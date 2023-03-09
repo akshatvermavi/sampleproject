@@ -31,7 +31,7 @@ git remote add origin https://github.com/akshatvermavi/sampleproject
 
 git add .
 
-git commit -m "New Project"
+git commit -m "Message you want to give after making any commit"
 
 git branch -M dev
 
