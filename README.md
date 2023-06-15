@@ -95,6 +95,41 @@ Pushes the changes in your local repository up to the remote repository you spec
 	
 	git push
 
+# Create repository
 
+	# to create an empty local repo
+	git init
+	
+	# to create a local copy from from an existing repo
+	git clone https://github.com/sampleproject
+	
+# update 
+
+	# get updates but dont apply them
+	git fetch
+	
+	# get updates and apply them
+	git pull
+
+# Commit
+
+	# Add a file to the nnext commit (Stagging area)
+	git add path/to/file
+	
+	# Get update
+	git commit 
+	# then, an editor should open and ask you to give a commit message
+	
+	# add all modified filess, commit them and give a commit message
+	git commit -am "first commit by me"
+	
+	# update last commit
+	git commit --amend
+	
+	# to see the current status of file 
+	git status
+	
+	
+	
 
 
